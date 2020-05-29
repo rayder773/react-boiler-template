@@ -9,7 +9,7 @@ export default function (state = initialState, action) {
   switch (action.type) {
     case PEOPLE_REQUEST:
       return {
-        ...state,
+         ...state,
         isFetching: true,
       };
     case PEOPLE_SUCCESS:
